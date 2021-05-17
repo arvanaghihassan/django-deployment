@@ -1,0 +1,9 @@
+<!doctype html>
+{% extends 'basic_app/base.html' %}
+  {% block block_body %}
+  {% load template %}
+  <h1>Welcome to Index!</h1>
+  <h2>This is index.html page showings!</h2>
+  <h2>{{ text|cut:'World' }} is: {{ number|add:"99" }}</h2>
+
+  {% endblock %}
